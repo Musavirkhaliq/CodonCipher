@@ -1,0 +1,24 @@
+# filter_sequences.py
+
+import re
+
+# input file (the one you pasted) 
+input_file = "tpi_sequences.txt"
+output_file = "tpi_sequences_filtered.txt"
+
+# keywords to eliminate (case-insensitive)
+exclude_keywords = ["fragment", "precursor", "chloroplast", "glycosomal"]
+
+with open(input_file, "r") as infile, open(output_file, "w") as outfile:
+    for line in infile:
+        if line.startswith(">"):  # only check header lines
+            header = line.lower()
+            if any(keyword in header for keyword in exclude_keywords):
+                continue  # skip this entry
+            else:
+                outfile.write(line)
+        else:
+            # write sequence lines as they are
+            outfile.write(line)
+
+print(f"Filtering complete ✅. Clean sequences saved in {output_file}")
