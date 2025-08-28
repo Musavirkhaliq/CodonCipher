@@ -52,7 +52,8 @@ def fetch_cDNA_from_uniprot_to_genbank(protein_id):
 # === MAIN ===
 def main():
     df = pd.read_csv("tpi_sequences_filtered_withcodon.csv", sep="\t", header=None)
-    df.columns = ["Protein_ID", "Some_ID", "Col3", "Description", "Organism","CDNA","codon usuage table"]
+    df.columns = ['ID', 'Number1', 'Number2', 'Description', 'Organism', 'CDNA',
+       'codon usuage table']
 
     cDNA_files = []
     codon_files = []

@@ -1,0 +1,184 @@
+{
+  "Phi_correlation": {
+    "pearson": {
+      "r": 0.01637165373554113,
+      "p": 0.18167707292744065,
+      "n": 6657
+    },
+    "spearman": {
+      "rho": -0.005141741526427971,
+      "p": 0.6748939029006888,
+      "n": 6657
+    },
+    "circular": {
+      "pearson_sin": {
+        "r": 0.03189414997323559,
+        "p": 0.009256541223218985
+      },
+      "pearson_cos": {
+        "r": -0.0297893034949275,
+        "p": 0.015073623125763071
+      },
+      "combined_strength": 0.04364217461616852
+    }
+  },
+  "Phi_group_comp": {
+    "t_test": {
+      "t": -0.7589830094476344,
+      "p": 0.4478897902929857,
+      "n0": 3334,
+      "n1": 3323
+    },
+    "mannwhitney": {
+      "u": 5593740.0,
+      "p": 0.48858453172093463
+    },
+    "resultant_length": {
+      "group0_R": 0.8183012385803772,
+      "group1_R": 0.7974012239070433
+    }
+  },
+  "Psi_correlation": {
+    "pearson": {
+      "r": 0.0013487412472091191,
+      "p": 0.912397074044797,
+      "n": 6656
+    },
+    "spearman": {
+      "rho": 0.007524416797132996,
+      "p": 0.5393688039201663,
+      "n": 6656
+    },
+    "circular": {
+      "pearson_sin": {
+        "r": 0.02088917064660946,
+        "p": 0.08836344109457582
+      },
+      "pearson_cos": {
+        "r": 0.0003979836290743848,
+        "p": 0.9741027235637506
+      },
+      "combined_strength": 0.020892961524690116
+    }
+  },
+  "Psi_group_comp": {
+    "t_test": {
+      "t": 0.22822886625384378,
+      "p": 0.8194753345807568,
+      "n0": 3326,
+      "n1": 3330
+    },
+    "mannwhitney": {
+      "u": 5505238.0,
+      "p": 0.6779382734973085
+    },
+    "resultant_length": {
+      "group0_R": 0.24053649145667438,
+      "group1_R": 0.24007659689146257
+    }
+  },
+  "Omega_correlation": {
+    "pearson": {
+      "r": -0.007127094529736204,
+      "p": 0.5609702460217594,
+      "n": 6657
+    },
+    "spearman": {
+      "rho": 0.007751809821211274,
+      "p": 0.527148851123378,
+      "n": 6657
+    },
+    "circular": {
+      "pearson_sin": {
+        "r": -0.014468989577397177,
+        "p": 0.23785256059993057
+      },
+      "pearson_cos": {
+        "r": -0.02668409315686678,
+        "p": 0.029469697414231798
+      },
+      "combined_strength": 0.030354447565310305
+    }
+  },
+  "Omega_group_comp": {
+    "t_test": {
+      "t": 0.6061523651609129,
+      "p": 0.5444342564199233,
+      "n0": 3334,
+      "n1": 3323
+    },
+    "mannwhitney": {
+      "u": 5533094.0,
+      "p": 0.9354834667054219
+    },
+    "resultant_length": {
+      "group0_R": 0.993880873479856,
+      "group1_R": 0.9951942183668144
+    }
+  },
+  "rama_enrichment": {
+    "chi2": 18.356978724674853,
+    "p": 0.10527351196025458,
+    "dof": 12
+  },
+  "rama_contingency_table": {
+    "Q1": {
+      "alpha_helix": 898,
+      "beta_sheet": 544,
+      "left_helix": 38,
+      "other": 97,
+      "turn_or_loop": 82
+    },
+    "Q2": {
+      "alpha_helix": 845,
+      "beta_sheet": 555,
+      "left_helix": 58,
+      "other": 112,
+      "turn_or_loop": 92
+    },
+    "Q3": {
+      "alpha_helix": 830,
+      "beta_sheet": 569,
+      "left_helix": 50,
+      "other": 115,
+      "turn_or_loop": 92
+    },
+    "Q4": {
+      "alpha_helix": 862,
+      "beta_sheet": 517,
+      "left_helix": 69,
+      "other": 109,
+      "turn_or_loop": 98
+    }
+  },
+  "Phi_lin_summary": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                    Phi   R-squared:                       0.331\nModel:                            OLS   Adj. R-squared:                  0.329\nMethod:                 Least Squares   F-statistic:                     156.6\nDate:                Thu, 28 Aug 2025   Prob (F-statistic):               0.00\nTime:                        13:15:28   Log-Likelihood:                -33984.\nNo. Observations:                6657   AIC:                         6.801e+04\nDf Residuals:                    6635   BIC:                         6.816e+04\nDf Model:                          21                                         \nCovariance Type:            nonrobust                                         \n====================================================================================\n                       coef    std err          t      P>|t|      [0.025      0.975]\n------------------------------------------------------------------------------------\nIntercept          -72.8942      1.468    -49.672      0.000     -75.771     -70.017\nC(AA)[T.C]         -20.6272      4.040     -5.106      0.000     -28.547     -12.707\nC(AA)[T.D]          -4.0736      2.753     -1.480      0.139      -9.470       1.323\nC(AA)[T.E]          -1.5634      2.330     -0.671      0.502      -6.131       3.004\nC(AA)[T.F]         -21.6000      3.047     -7.088      0.000     -27.573     -15.626\nC(AA)[T.G]          85.9223      2.207     38.928      0.000      81.595      90.249\nC(AA)[T.H]           2.6774      4.202      0.637      0.524      -5.560      10.915\nC(AA)[T.I]         -16.6388      2.414     -6.892      0.000     -21.372     -11.906\nC(AA)[T.K]           0.5782      2.313      0.250      0.803      -3.956       5.112\nC(AA)[T.L]          -6.0578      2.415     -2.508      0.012     -10.792      -1.324\nC(AA)[T.M]          -0.8627      5.433     -0.159      0.874     -11.513       9.787\nC(AA)[T.N]         -21.4090      2.760     -7.758      0.000     -26.819     -15.999\nC(AA)[T.P]          10.3513      3.031      3.415      0.001       4.409      16.293\nC(AA)[T.Q]           1.0979      2.945      0.373      0.709      -4.675       6.871\nC(AA)[T.R]           1.2401      3.023      0.410      0.682      -4.686       7.166\nC(AA)[T.S]          -6.7001      2.507     -2.672      0.008     -11.615      -1.785\nC(AA)[T.T]          -8.5122      2.604     -3.269      0.001     -13.617      -3.407\nC(AA)[T.V]         -22.7223      2.109    -10.776      0.000     -26.856     -18.589\nC(AA)[T.W]          -7.1471      3.911     -1.828      0.068     -14.814       0.519\nC(AA)[T.Y]         -14.0575      3.948     -3.561      0.000     -21.797      -6.318\nCodon_Freq_c         0.2895      1.445      0.200      0.841      -2.543       3.122\nResidue_Number_c    -0.0157      0.005     -3.141      0.002      -0.025      -0.006\n==============================================================================\nOmnibus:                      748.480   Durbin-Watson:                   1.827\nProb(Omnibus):                  0.000   Jarque-Bera (JB):             5135.640\nSkew:                           0.308   Prob(JB):                         0.00\nKurtosis:                       7.259   Cond. No.                     1.46e+03\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\n[2] The condition number is large, 1.46e+03. This might indicate that there are\nstrong multicollinearity or other numerical problems.",
+  "Phi_circ": {
+    "m_sin": "<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x7f897194d7f0>",
+    "m_cos": "<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x7f8971607dd0>",
+    "beta_sin": 0.012176220596571452,
+    "beta_cos": -0.015609988023538225,
+    "p_sin": 0.3018678486412814,
+    "p_cos": 0.2768214863160544,
+    "combined_magnitude": 0.019797274411175333
+  },
+  "Psi_lin_summary": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                    Psi   R-squared:                       0.073\nModel:                            OLS   Adj. R-squared:                  0.070\nMethod:                 Least Squares   F-statistic:                     24.98\nDate:                Thu, 28 Aug 2025   Prob (F-statistic):           1.00e-93\nTime:                        13:15:28   Log-Likelihood:                -38808.\nNo. Observations:                6656   AIC:                         7.766e+04\nDf Residuals:                    6634   BIC:                         7.781e+04\nDf Model:                          21                                         \nCovariance Type:            nonrobust                                         \n====================================================================================\n                       coef    std err          t      P>|t|      [0.025      0.975]\n------------------------------------------------------------------------------------\nIntercept           14.6764      3.036      4.835      0.000       8.725      20.627\nC(AA)[T.C]          54.7943      8.347      6.564      0.000      38.431      71.158\nC(AA)[T.D]         -12.3647      5.690     -2.173      0.030     -23.519      -1.211\nC(AA)[T.E]          -5.1671      4.816     -1.073      0.283     -14.608       4.274\nC(AA)[T.F]          38.4856      6.297      6.112      0.000      26.142      50.829\nC(AA)[T.G]          -1.6723      4.560     -0.367      0.714     -10.611       7.267\nC(AA)[T.H]          20.4791      8.720      2.349      0.019       3.386      37.573\nC(AA)[T.I]          38.7704      4.990      7.769      0.000      28.988      48.553\nC(AA)[T.K]          -6.8595      4.784     -1.434      0.152     -16.237       2.518\nC(AA)[T.L]           5.7353      5.006      1.146      0.252      -4.078      15.549\nC(AA)[T.M]           6.1245     10.082      0.607      0.544     -13.639      25.888\nC(AA)[T.N]          26.6028      5.710      4.659      0.000      15.409      37.797\nC(AA)[T.P]          30.1342      6.264      4.811      0.000      17.855      42.413\nC(AA)[T.Q]         -20.2493      6.164     -3.285      0.001     -32.333      -8.165\nC(AA)[T.R]           0.3105      6.259      0.050      0.960     -11.960      12.581\nC(AA)[T.S]          28.6984      5.178      5.543      0.000      18.549      38.848\nC(AA)[T.T]          37.6925      5.382      7.004      0.000      27.142      48.243\nC(AA)[T.V]          44.5382      4.360     10.215      0.000      35.991      53.086\nC(AA)[T.W]           7.0748      8.081      0.876      0.381      -8.766      22.915\nC(AA)[T.Y]          39.0060      8.158      4.781      0.000      23.014      54.998\nCodon_Freq_c         1.9121      2.990      0.640      0.522      -3.949       7.773\nResidue_Number_c    -0.0955      0.010     -9.250      0.000      -0.116      -0.075\n==============================================================================\nOmnibus:                     1932.359   Durbin-Watson:                   1.106\nProb(Omnibus):                  0.000   Jarque-Bera (JB):              375.122\nSkew:                           0.263   Prob(JB):                     3.49e-82\nKurtosis:                       1.963   Cond. No.                     1.45e+03\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\n[2] The condition number is large, 1.45e+03. This might indicate that there are\nstrong multicollinearity or other numerical problems.",
+  "Psi_circ": {
+    "m_sin": "<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x7f8974ea25d0>",
+    "m_cos": "<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x7f8971605220>",
+    "beta_sin": 0.024621017876039444,
+    "beta_cos": -0.024116513269239716,
+    "p_sin": 0.25229476038270054,
+    "p_cos": 0.356208374435372,
+    "combined_magnitude": 0.034464485104490815
+  },
+  "Omega_lin_summary": "                            OLS Regression Results                            \n==============================================================================\nDep. Variable:                  Omega   R-squared:                       0.034\nModel:                            OLS   Adj. R-squared:                  0.031\nMethod:                 Least Squares   F-statistic:                     11.15\nDate:                Thu, 28 Aug 2025   Prob (F-statistic):           3.33e-37\nTime:                        13:15:29   Log-Likelihood:                -43500.\nNo. Observations:                6657   AIC:                         8.704e+04\nDf Residuals:                    6635   BIC:                         8.719e+04\nDf Model:                          21                                         \nCovariance Type:            nonrobust                                         \n====================================================================================\n                       coef    std err          t      P>|t|      [0.025      0.975]\n------------------------------------------------------------------------------------\nIntercept           53.2879      6.129      8.694      0.000      41.273      65.303\nC(AA)[T.C]         -74.6132     16.873     -4.422      0.000    -107.691     -41.536\nC(AA)[T.D]         -25.7357     11.498     -2.238      0.025     -48.275      -3.196\nC(AA)[T.E]          19.2525      9.732      1.978      0.048       0.175      38.330\nC(AA)[T.F]         -69.5479     12.727     -5.465      0.000     -94.496     -44.600\nC(AA)[T.G]          -0.8501      9.218     -0.092      0.927     -18.921      17.221\nC(AA)[T.H]           0.1074     17.549      0.006      0.995     -34.295      34.510\nC(AA)[T.I]          22.7294     10.083      2.254      0.024       2.963      42.496\nC(AA)[T.K]         -35.3195      9.660     -3.656      0.000     -54.256     -16.383\nC(AA)[T.L]          13.7686     10.086      1.365      0.172      -6.004      33.541\nC(AA)[T.M]          44.2212     22.690      1.949      0.051      -0.258      88.701\nC(AA)[T.N]         -35.8294     11.526     -3.109      0.002     -58.424     -13.234\nC(AA)[T.P]          26.9539     12.659      2.129      0.033       2.137      51.770\nC(AA)[T.Q]          30.5219     12.300      2.481      0.013       6.410      54.634\nC(AA)[T.R]          71.8708     12.625      5.693      0.000      47.121      96.620\nC(AA)[T.S]         -54.7106     10.471     -5.225      0.000     -75.237     -34.184\nC(AA)[T.T]         -31.6316     10.876     -2.908      0.004     -52.951     -10.312\nC(AA)[T.V]         -17.7253      8.806     -2.013      0.044     -34.988      -0.462\nC(AA)[T.W]         -25.2161     16.334     -1.544      0.123     -57.235       6.803\nC(AA)[T.Y]          -2.3990     16.489     -0.145      0.884     -34.723      29.925\nCodon_Freq_c         0.7132      6.035      0.118      0.906     -11.117      12.543\nResidue_Number_c    -0.0121      0.021     -0.580      0.562      -0.053       0.029\n==============================================================================\nOmnibus:                    34217.684   Durbin-Watson:                   1.815\nProb(Omnibus):                  0.000   Jarque-Bera (JB):              994.287\nSkew:                          -0.516   Prob(JB):                    1.24e-216\nKurtosis:                       1.412   Cond. No.                     1.46e+03\n==============================================================================\n\nNotes:\n[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.\n[2] The condition number is large, 1.46e+03. This might indicate that there are\nstrong multicollinearity or other numerical problems.",
+  "Omega_circ": {
+    "m_sin": "<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x7f897167a600>",
+    "m_cos": "<statsmodels.regression.linear_model.RegressionResultsWrapper object at 0x7f897167a870>",
+    "beta_sin": -0.00015612751240614162,
+    "beta_cos": -0.002363606424496041,
+    "p_sin": 0.9650483293129228,
+    "p_cos": 0.030228080737663813,
+    "combined_magnitude": 0.002368757296569045
+  }
+}
