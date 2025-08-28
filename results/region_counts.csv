@@ -1,6 +1,6 @@
 rama_region,Q1,Q2,Q3,Q4
-alpha_helix,898,845,830,862
-beta_sheet,544,555,569,517
-left_helix,38,58,50,69
-other,97,112,115,109
-turn_or_loop,82,92,92,98
+alpha_helix,27,31,34,38
+beta_sheet,22,23,17,17
+left_helix,2,2,3,2
+other,5,4,6,3
+turn_or_loop,6,1,2,3
