@@ -1,0 +1,14 @@
+color red, TPIS_SECCE and resi 27
+color red, TPIS_SECCE and resi 43
+color red, TPIS_SECCE and resi 56
+color red, TPIS_SECCE and resi 87
+color red, TPIS_SECCE and resi 101
+color red, TPIS_SECCE and resi 106
+color red, TPIS_SECCE and resi 118
+color red, TPIS_SECCE and resi 132
+color red, TPIS_SECCE and resi 189
+color red, TPIS_SECCE and resi 193
+color red, TPIS_SECCE and resi 198
+color red, TPIS_SECCE and resi 205
+color red, TPIS_SECCE and resi 217
+color red, TPIS_SECCE and resi 223

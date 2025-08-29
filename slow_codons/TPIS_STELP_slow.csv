@@ -1,0 +1,2 @@
+ID,Organism,Codon_Index,Codon,AA_from_cDNA,AA_from_structure,Residue_Number,Phi,Psi,Omega,Codon_Frequency,Relative_Frequency
+TPIS_STELP,Stellaria longipes,207,CGC,R,R,207,-80.07936513398518,126.83174690192682,173.39227279509035,0.05,0.1724137931034483
